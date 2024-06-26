@@ -14,18 +14,7 @@
     <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.2/libs/oversea/index.js"></script>
   </head>
   <body>
-    <script>
-      Telegram.WebApp.ready();
-      let tg = window.Telegram.WebApp;
-      tg.expand();
-      new CozeWebSDK.WebChatClient({
-        config: {
-          bot_id: "7384735887148204037", //ID of your bot on coze.com
-        },
-        componentProps: {
-          title: "Беседка",
-        },
-      });
-    </script>
+   <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+   <script> new CozeWebSDK.WebChatClient({ config: { bot_id: '7384735887148204037', }, componentProps: { title: 'Coze', }, }); </script>
   </body>
 </html>
